@@ -1,0 +1,16 @@
+{
+    "name": "kaz/php-package-test",
+    "description": "demo package to learn package development",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kasun",
+            "email": "kasuns1990@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"kaz\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
